@@ -45,8 +45,8 @@ Step 7: Access you nodejs application UI from browser
 
 Step 1: Start mongodb and mongo-express containers on specified ports
     
-_You can access the mongo-express under localhost:8081 from your browser_
-_You can access the mongo-db under localhost:27017 from your browser_
+_You can access the mongo-express under `localhost:8081` from your browser_
+_You can access the mongo-db under `localhost:27017` from your browser_
    
 Step 2: Create `Dockerfile`
     
