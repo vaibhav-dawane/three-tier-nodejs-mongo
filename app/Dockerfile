@@ -1,7 +1,7 @@
 FROM node
 
 ENV MONGO_DB_USERNAME=admin
-ENV MONGO_DB_PWD=pass
+ENV MONGO_DB_PWD=password
 
 WORKDIR /app
 COPY . .
