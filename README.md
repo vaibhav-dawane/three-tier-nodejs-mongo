@@ -29,7 +29,7 @@ Step 4: open mongo-express from browser
     
     http://localhost:8081
 
-Default username: admin & password: pass
+Default username: `admin` & password: `pass`
 
 Step 5: create `user-account` _db_ and `users` _collection_ in mongo-express
 
