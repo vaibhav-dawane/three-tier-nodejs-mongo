@@ -26,8 +26,10 @@ Step 3: start mongo-express
 _NOTE: creating docker-network in optional. You can start both containers in a default network. In this case, just emit `--net` flag in `docker run` command_
 
 Step 4: open mongo-express from browser
-
+    
     http://localhost:8081
+
+Default username: admin & password: pass
 
 Step 5: create `user-account` _db_ and `users` _collection_ in mongo-express
 
