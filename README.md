@@ -52,12 +52,8 @@ Step 2: Create `Dockerfile`
     
 Step 3: Build an image using dockerfile 
 
-    ***bash
     docker build -t my-node-app .       
-    ***bash
-    
+        
 Step 4: Run an image
 
-    ***bash
     docker run -d -p 3000:3000 --network mongo-network my-node-app
-    ***bash
