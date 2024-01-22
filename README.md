@@ -27,6 +27,7 @@ Step 4: open mongo-express from browser
 
 Default username: `admin` & password: `pass`
 Can also check using `docker logs <container-id>` command
+You need to change password to `password` by going in container using `docker -it exec container bash` then find file named `config.js`
 
 Step 5: create `user-account` and `my-db` databases in mongo-express, also create `user` collection in  `user-account` database in mongo-express UI
 
