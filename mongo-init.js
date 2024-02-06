@@ -1,4 +1,5 @@
-// mongo-init.js
+// to create dbs automatically in mongo-express
+
 db.createUser({
     user: "admin",
     pwd: "admin123",
