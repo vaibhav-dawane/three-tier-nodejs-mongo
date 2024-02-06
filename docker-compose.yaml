@@ -13,7 +13,9 @@ services:
      - MONGO_INITDB_ROOT_USERNAME=admin
      - MONGO_INITDB_ROOT_PASSWORD=password
     volumes:
-     - mongo-data:/data/db # first name of volume, and then path to where mongodb store data, 
+     - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js # mounting js script to the container entrypoint
+      # after container starts, it will execute the entry point script automatically
+     - mongo-data:/data/db # first name of volume, and then path to where mongodb store data
 
   mongo-express:
     image: mongo-express
